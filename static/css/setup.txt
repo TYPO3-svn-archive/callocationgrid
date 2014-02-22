@@ -1,0 +1,29 @@
+plugin.tx_callocationgrid {
+	_CSS_DEFAULT_STYLE (
+		.tx-cal-controller #locationgrid TD {
+			margin:0px;
+			padding:0px;
+		}
+		.tx-cal-controller #locationgrid .locationgrid_item {
+		}
+
+		.tx-cal-controller #locationgrid .locationgrid_date {
+			background-color: #ddd;
+			text-align:center;
+			font-weight:bold;
+		}
+
+		.tx-cal-controller #locationgrid, .tx-cal-controller #locationgrid TD {
+			border-collapse:collapse;
+			border:1px solid #000;
+			padding:2px;
+			vertical-align:top;
+		}
+
+		.tx-cal-controller #locationgrid .locationgrid_header {
+			background-color: #ddd;
+			text-align:center;
+			font-weight:bold;
+		}
+	)
+}

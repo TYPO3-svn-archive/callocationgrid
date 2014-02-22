@@ -1,0 +1,25 @@
+plugin.tx_cal_controller {
+	view {
+		locationgrid {
+			enable = 1
+			locationIds = 
+			locationText =
+			stdWrap {
+				wrap = <table id="locationgrid">|</table>
+			}
+			row_stdWrap {
+				wrap = <tr>|</tr>
+			}
+			headerItem_stdWrap {
+				wrap = <td class="locationgrid_header">|</td>
+			}
+			item_stdWrap {
+				wrap = <td class="locationgrid_item">|</td>
+			}
+			date_stdWrap {
+				wrap = <td class="locationgrid_date">|</td>
+			}
+			dateFormat = d.m.
+		}
+	}	
+}
