@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'This extension provides a grid-style view grouped by locations.',
 	'category' => 'plugin',
 	'shy' => 0,
-	'version' => '1.2.0',
+	'version' => '1.3.0',
 	'dependencies' => '',
 	'conflicts' => '',
 	'priority' => '',
@@ -34,7 +34,8 @@ $EM_CONF[$_EXTKEY] = array(
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
-			'cal' => '',
+			'cal' => '1.5.0',
+            'typo3' => '4.5.5-6.1.99',
 		),
 		'conflicts' => array(
 		),
